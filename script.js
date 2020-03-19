@@ -1,7 +1,7 @@
-// ez-tab-1
-const ez = (containerName) => {
+// Main function
+const easytab = (containerName) => {
     
-    // storing, main container that user creates with ez() function, inside ezContainer Variable
+    // storing, main container that user creates with easytab() function, inside ezContainer Variable
     let ezContainer = document.querySelector(containerName)
 
     // tab
