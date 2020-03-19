@@ -4,18 +4,18 @@ An simple library to easily create tab navigation's
 HTML structure :
 - a container with unique id.
 - all class'es are necessary.
-<div id="unique-container">
-    <ul class="tab-box">
-		<li class="tab"></li>
-		<li class="tab"></li>
-		<li class="tab"></li>
-	</ul>
-	<section class="content-box">
-        <div class="content"></div>
-        <div class="content"></div>
-        <div class="content"></div>
-    </section>
-</div>
+div id="unique-container"
+    ul class="tab-box"
+		li class="tab" /li
+		li class="tab" /li>
+		li class="tab" /li>
+	/ul
+	section class="content-box"
+        div class="content" /div
+        div class="content" /div
+        div class="content" /div
+    /section
+/div
 
 Call fanction :
 easytab('unique-container');
