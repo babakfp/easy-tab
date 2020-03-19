@@ -7,8 +7,8 @@ HTML structure :
 div id="unique-container"
     ul class="tab-box"
 		li class="tab" /li
-		li class="tab" /li>
-		li class="tab" /li>
+		li class="tab" /li
+		li class="tab" /li
 	/ul
 	section class="content-box"
         div class="content" /div
