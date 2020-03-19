@@ -1,16 +1,16 @@
 // Main function
-const easytab = (containerName) => {
+const easytab = (uniqueContainerId) => {
     
-    // storing, main container that user creates with easytab() function, inside ezContainer Variable
-    let ezContainer = document.querySelector(containerName)
+    // storing, main container that user creates with easytab() function, inside easytabContainer Variable
+    let easytabContainer = document.getElementById(uniqueContainerId)
 
     // tab
-    let tabBox = ezContainer.querySelector('.tab-box')
+    let tabBox = easytabContainer.querySelector('.tab-box')
     let tabCount = tabBox.childElementCount
     let tabArray = tabBox.querySelectorAll('.tab')
 
     // content
-    let contentBox = ezContainer.querySelector('.content-box')
+    let contentBox = easytabContainer.querySelector('.content-box')
     let contentCount = contentBox.childElementCount
     let contentArray = contentBox.querySelectorAll('.content')
 
@@ -30,6 +30,7 @@ const easytab = (containerName) => {
         tabArray[0].classList.add('current')
         contentArray[0].classList.add('current')
 
+        // white currentTab clicked
         currentTab.addEventListener('click', () => {
 
             // hide all content after each click
