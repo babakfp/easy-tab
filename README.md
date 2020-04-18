@@ -18,11 +18,11 @@ An simple library to easily create tab navigation's
         </ul>
     </ul>
 </ul>
-<img src="https://github.com/babakfp/easy-tab/blob/master/demo/_/easytab-tab-navigation-library-html-structure.png" width="100%">
+<img src="https://github.com/babakfp/easy-tab/blob/master/demo/_/easytab-tab-navigation-library-html-structure.png">
 
 <h2>Javascript</h2>
-<p>Call with container unicue ID<p>
-<img src="https://github.com/babakfp/easy-tab/blob/master/demo/_/easytab-tab-navigation-library-Javascript.png" width="100%">
+<p>Call with container unique ID<p>
+<img src="https://github.com/babakfp/easy-tab/blob/master/demo/_/easytab-tab-navigation-library-javascript.png">
 
 <h2>File's</h2>
 <ul>
