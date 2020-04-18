@@ -1,0 +1,30 @@
+
+/*
+---
+demo New style's
+---
+*/
+
+:root {
+    --red: #EF394E;
+    --green: #6BB927;
+}
+
+.easyatb-tab-list {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.easyatb-tab-list::-webkit-scrollbar {
+    height: 2px;
+    background: #ededed;
+}
+
+.easyatb-tab-list::-webkit-scrollbar-track {
+}
+
+.easyatb-tab-list::-webkit-scrollbar-thumb {
+    background: var(--red);
+}
