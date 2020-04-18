@@ -30,4 +30,14 @@ An simple library to easily create tab navigation's
     <li>easyatb.min.css</li>
 </ul>
 
+<br>
+<br>
+
 <strong>Author : </strong>babakfp
+<ul>
+    <li><strong>Contact : </strong> <a href="https://t.me/babakfp">Telegram pv</a>
+    <li><strong>Github : </strong> <a href="https://github.com/babakfp">Profile</a>
+    <li><strong>Codepen : </strong> <a href="https://codepen.io/babakfp">Profile</a> 
+    <li><strong>Stack Overflow : </strong> <a href="https://stackoverflow.com/users/10799492/babakfp">Profile</a> 
+    <li><strong>Site : </strong> <a href="http://babakfp.ir">View</a> 
+</ul>
