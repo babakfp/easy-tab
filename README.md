@@ -22,7 +22,9 @@ An simple library to easily create tab navigation's
 
 <h2>Javascript</h2>
 <p>Call with container unique ID<p>
+<p>In out project, we have 3 tab's (and same count of content). If we use code <strong>line 1</strong>, by default <strong>first tab</strong> (and content) will be active & visible. Else if we use code <strong>line 2</strong>,by default <strong>second</strong> tab (and content) will be active & visible ...</p>
 <img src="https://github.com/babakfp/easy-tab/blob/master/demo/_/easytab-tab-navigation-library-javascript.png">
+
 
 <h2>Source file's</h2>
 <ul>
