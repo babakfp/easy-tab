@@ -4,11 +4,11 @@ An simple library to easily create tab navigation's
 
 <h2>HTML structure</h2> :
 
--* div#container-id
---* ul.easyatb-tab-list
----* li.easyatb-tab
---* section.easyatb-content-list
----* div.easytab-content
+div#container-id
+ul.easyatb-tab-list
+li.easyatb-tab
+section.easyatb-content-list
+div.easytab-content
 
 <img src="http://https://github.com/babakfp/easy-tab/blob/master/demo/_/easytab-tab-navigation-library-html-structure.png" width="100%">
 
