@@ -24,10 +24,10 @@ An simple library to easily create tab navigation's
 <p>Call with container unique ID<p>
 <img src="https://github.com/babakfp/easy-tab/blob/master/demo/_/easytab-tab-navigation-library-javascript.png">
 
-<h2>File's</h2>
+<h2>Source file's</h2>
 <ul>
-    <li>easyatb.min.js<li>
-    <li>easyatb.min.css<li>
+    <li>easyatb.min.js</li>
+    <li>easyatb.min.css</li>
 </ul>
 
-Author : babakfp
+<strong>Author : </strong>babakfp
