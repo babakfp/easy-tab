@@ -1,10 +1,17 @@
+
 # easy-tab
 An simple library to easily create tab navigation's
 
-HTML structure :
-- a container with unique id.
-- all class'es are necessary.
-<img src="http://demo.babakfp.ir/easytab/d9b76640-9a42-44ef-9b95-cbcbe5251a8b.png" width="345px">
+<h2>HTML structure</h2> :
+
+-* div#container-id
+--* ul.easyatb-tab-list
+---* li.easyatb-tab
+--* section.easyatb-content-list
+---* div.easytab-content
+
+<img src="http://https://github.com/babakfp/easy-tab/blob/master/demo/_/easytab-tab-navigation-library-html-structure.png" width="100%">
+
 
 Call fanction :
 - do not include #
