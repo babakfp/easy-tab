@@ -8,17 +8,17 @@ const easytab = ( ContainerID, active ) => {
 
 
     // Tab's wrapper - All Tab's are located inside this class
-    let tabList = easytabContainer.querySelector('.easyatb-tab-list')
+    let tabList = easytabContainer.querySelector('.easytab-tab-list')
 
     // Get all Tab's avalible inside tabList
-    let tabArray = tabList.querySelectorAll('.easyatb-tab')
+    let tabArray = tabList.querySelectorAll('.easytab-tab')
 
     // Number of avalible Tab's
     let tabLength = tabArray.length
     
 
     // Content's wrapper - All Content's are located inside this class
-    let contentList = easytabContainer.querySelector('.easyatb-content-list')
+    let contentList = easytabContainer.querySelector('.easytab-content-list')
     
     // Get all Content's avalible inside contentList
     let contentArray = contentList.querySelectorAll('.easytab-content')
