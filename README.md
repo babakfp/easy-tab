@@ -1,45 +1,24 @@
-<span style="display:none"># easy-tab</span>
-# EasyTab
-An simple library to easily create tab navigation's
+# easy-tab
 
-<h2>HTML structure</h2>
-<ul>
-    <li>div#container-id</li>
-    <ul>
-        <li>ul.easyatb-tab-list</li>
-        <ul>
-            <li>li.easyatb-tab</li>
-        </ul>
-    </ul>
-    <ul>
-        <li>section.easyatb-content-list</li>
-        <ul>
-            <li>li.easyatb-content</li>
-        </ul>
-    </ul>
-</ul>
-<img src="https://github.com/babakfp/easy-tab/blob/master/demo/_/easytab-tab-navigation-library-html-structure.png">
+## Introdation
+[Easy Tab](https://github.com/babakfp/easy-tab) is a simple library to easily create tab navigation's.
 
-<h2>Javascript</h2>
-<p>Call with container unique ID<p>
-<p>In out project, we have 3 tab's (and same count of content). If we use code <strong>line 1</strong>, by default <strong>first tab</strong> (and content) will be active & visible. Else if we use code <strong>line 2</strong>,by default <strong>second</strong> tab (and content) will be active & visible ...</p>
-<img src="https://github.com/babakfp/easy-tab/blob/master/demo/_/easytab-tab-navigation-library-javascript.png">
+- container (element that contain tabs and contents), need to have a unique `id` to library be able to select it.
+- All necessary class'es starts with the `easytab` word and after that, `-` character.
+- To getting started, you need to include `easytab.min.css` and `easytab.min.js` files into your project.
+- You need to write code `easyTab('container-unique-id')` after loading library code js file.
+- You can have ultimate tab navigation on the same page. you need to give a unique `id` to each tab navigation container and then call that id with this code `easyTab('container-unique-id')`.
+- If you what to tab number 2 activate in first, do this `easyTab('container-unique-id', 2)`. just replace tab index you wish.
+- If you like this, please press like button.
 
+## Files
+- easytab.min.js
+- easytab.min.css
 
-<h2>Source file's</h2>
-<ul>
-    <li>easyatb.min.js</li>
-    <li>easyatb.min.css</li>
-</ul>
-
-<br>
-<br>
-
-<strong>Author : </strong>babakfp
-<ul>
-    <li><strong>Contact : </strong> <a href="https://t.me/babakfp">Telegram pv</a>
-    <li><strong>Github : </strong> <a href="https://github.com/babakfp">Profile</a>
-    <li><strong>Codepen : </strong> <a href="https://codepen.io/babakfp">Profile</a> 
-    <li><strong>Stack Overflow : </strong> <a href="https://stackoverflow.com/users/10799492/babakfp">Profile</a> 
-    <li><strong>Site : </strong> <a href="http://babakfp.ir">View</a> 
-</ul>
+### Author
+Author name: babakfp
+- Contact: [Telegram](https://t.me/babakfp)
+- Website [visit](http://babakfp.ir)
+- Github [visit](https://github.com/babakfp)
+- Codepen [visit](https://codepen.io/babakfp)
+- Stack Overflow [visit](https://stackoverflow.com/users/10799492/babakfp)
