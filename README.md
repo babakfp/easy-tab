@@ -1,7 +1,7 @@
 # easy-tab
 
 ## Introdation
-[Easy Tab](https://github.com/babakfp/easy-tab) is a simple library to easily create tab navigation's.
+[Easy Tab](https://github.com/babakfp/easy-tab) Navigation is a simple library to easily create tab navigation's.
 
 - container (element that contain tabs and contents), need to have a unique `id` to library be able to select it.
 - All necessary class'es starts with the `easytab` word and after that, `-` character.
