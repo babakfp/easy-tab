@@ -1,0 +1,16 @@
+/*!
+https://github.com/babakfp/easy-tab
+*/
+
+
+.easytab-tab {
+  cursor: pointer
+}
+
+.easytab-content {
+  display: none
+}
+
+.easytab-content.active {
+  display: block
+}
