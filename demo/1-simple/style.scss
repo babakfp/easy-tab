@@ -1,20 +1,19 @@
-[easytab] {
-  [tab] {
-    background: none;
-    color: #222;
-    display: inline-block;
-    padding: 10px 15px;
-    cursor: pointer;
-  
-    &.active {
-      background: #ededed;
-      color: #222;
-    }
-  }
-  [content] {
+[easytab-tab] {
+  background: none;
+  color: #222;
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer;
+
+  &.active {
     background: #ededed;
-    padding: 15px;
+    color: #222;
   }
+}
+
+[easytab-content] {
+  background: #ededed;
+  padding: 15px;
 }
 
 .tab-list {

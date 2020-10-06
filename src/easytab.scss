@@ -1,13 +1,13 @@
-[easytab] {
-  [tab] {
-    cursor: pointer;
-    white-space: nowrap;
-  }
-  
-  [content] {
-    display: none;
-    &.active {
-      display: block
-    }
+[easytab] {}
+
+[easytab-tab] {
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+[easytab-content] {
+  display: none;
+  &.active {
+    display: block
   }
 }
