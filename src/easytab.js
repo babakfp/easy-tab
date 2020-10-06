@@ -1,5 +1,12 @@
 const easyTab = function(container, active){
   
+  if (!container) {
+    console.error(`Error:
+In your project, the wrapper of easyTab() couldn't found!.
+    `)
+    return
+  }
+
   // tabs
   let tabs = container.querySelectorAll('[easytab-tab]')
   let tabsLength = tabs.length
