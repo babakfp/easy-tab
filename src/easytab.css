@@ -1,1 +1,1 @@
-[easytab] [tab]{cursor:pointer}[easytab] [content]{display:none}[easytab] [content].active{display:block}
+[easytab] [tab]{cursor:pointer;white-space:nowrap}[easytab] [content]{display:none}[easytab] [content].active{display:block}
