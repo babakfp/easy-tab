@@ -1,4 +1,4 @@
-$green: #6BB927;
+$primary: #6BB927;
 
 .tabs-container {
   overflow-x: scroll;
@@ -9,11 +9,8 @@ $green: #6BB927;
   &::-webkit-scrollbar {
     height: 2px;
     background: #ededed;
-
     &-thumb {
-      background: $green
+      background: $primary
     }
-    
   }
-
 }
