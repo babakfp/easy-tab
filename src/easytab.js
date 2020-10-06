@@ -1,11 +1,11 @@
 const easyTab = function(container, active){
   
   // tabs
-  let tabs = container.querySelectorAll('.easytab-tab')
+  let tabs = container.querySelectorAll('[tab]')
   let tabsLength = tabs.length
   
   // contents
-  let contents = container.querySelectorAll('.easytab-content')
+  let contents = container.querySelectorAll('[content]')
 
   // activate first tab
   if (active == undefined) {

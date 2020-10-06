@@ -1,11 +1,12 @@
-.easytab-tab {
-  cursor: pointer
-}
-
-.easytab-content {
-  display: none
-}
-
-.easytab-content.active {
-  display: block
+[easytab] {
+  [tab] {
+    cursor: pointer
+  }
+  
+  [content] {
+    display: none;
+    &.active {
+      display: block
+    }
+  }
 }

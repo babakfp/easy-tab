@@ -14,7 +14,7 @@ body {
   line-height: 1.6;
 }
 
-.container {
+.bootstrap-container {
 	width: 100%;
 	padding-right: 15px;
 	padding-left: 15px;
@@ -23,7 +23,7 @@ body {
   margin-top: 15px;
 }
 
-@media (min-width: 576px) {  .container { max-width: 540px  } }
-@media (min-width: 768px) {  .container { max-width: 720px  } }
-@media (min-width: 992px) {  .container { max-width: 960px  } }
-@media (min-width: 1200px) { .container { max-width: 1140px } }
+@media (min-width: 576px) {  .bootstrap-container { max-width: 540px  } }
+@media (min-width: 768px) {  .bootstrap-container { max-width: 720px  } }
+@media (min-width: 992px) {  .bootstrap-container { max-width: 960px  } }
+@media (min-width: 1200px) { .bootstrap-container { max-width: 1140px } }
