@@ -26,6 +26,8 @@ Path: `/dist`
 
 <script>
 	new EasyTab('.my-easytab')
+	// Or
+	new EasyTab(document.querySelector('.my-easytab'))
 </script>
 
 <!-- Multiple instances with one line of code -->
