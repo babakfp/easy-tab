@@ -12,7 +12,7 @@ Path: `/dist`
 ## Usage
 
 ```js
-	new EasyTab(container, activeIndex = 1)
+new EasyTab(container, activeIndex = 1)
 ```
 
 ```html
