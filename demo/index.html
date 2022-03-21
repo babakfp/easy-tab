@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Simple Demo</title>
+
+		<link rel="stylesheet" href="../../dist/easytab-dist.css">
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body class="bootstrap-container">
+		<div class="my-easytab">
+      <ul class="tabs">
+        <li class="easytab__tab">
+					<button>Tab 1</button>
+				</li>
+        <li class="easytab__tab">
+					<button>Tab 2</button>
+				</li>
+        <li class="easytab__tab">
+					<button>Tab 3</button>
+				</li>
+      </ul>
+
+      <div class="contents-list">
+				<div class="easytab__panel">Content 1</div>
+				<div class="easytab__panel">Content 2</div>
+				<div class="easytab__panel">Content 3</div>
+      </div>
+    </div>
+	</body>
+
+	<script src="../../src/easytab.js"></script>
+	<script>
+		new EasyTab('.my-easytab')
+	</script>
+</html>

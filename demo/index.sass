@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap')
+
+:root
+	--gray-50: rgb(250 250 250)
+	--gray-100: rgb(245 245 245)
+	--gray-200: rgb(229 229 229)
+	--gray-300: rgb(212 212 212)
+	--gray-400: rgb(163 163 163)
+	--gray-500: rgb(115 115 115)
+	--gray-600: rgb(82 82 82)
+	--gray-700: rgb(64 64 64)
+	--gray-800: rgb(38 38 38)
+	--gray-900: rgb(23 23 23)
+
+*
+	margin: 0
+	padding: 0
+	border: 0
+	box-sizing: border-box
+	list-style: none
+	text-decoration: none
+	background: none
+	outline: none !important
+
+body
+	padding-top: 4rem
+	padding-bottom: 4rem
+	font-family: 'Poppins', sans-serif
+	background: var(--gray-800)
+	color: var(--gray-300)
+
+button
+	color: inherit
+	font-size: inherit
+
+.bootstrap-container
+	width: 100%
+	margin-right: auto
+	margin-left: auto
+	padding-right: 2rem
+	padding-left: 2rem
+
+	@media (min-width: 576px)
+		max-width: 540px
+	@media (min-width: 768px)
+		max-width: 720px
+	@media (min-width: 992px)
+		max-width: 960px
+	@media (min-width: 1200px)
+		max-width: 1140px
+
+.tabs
+	display: flex
+	overflow-x: auto
+	overflow-y: hidden
+
+.easytab__tab
+
+	&.active button
+		background: var(--gray-700)
+
+	button
+		padding: .5rem 1rem
+		cursor: pointer
+
+		&:focus-visible
+			background: var(--gray-600)
+
+.easytab__panel
+	background: var(--gray-700)
+	padding: 1rem
