@@ -32,8 +32,6 @@ Path: `/dist`
 
 <script>
 	const allEasytabs = document.querySelectorAll('.my-easytab')
-	allEasytabs.forEach(el => {
-		new EasyTab(el)
-	})
+	allEasytabs.forEach(el => new EasyTab(el))
 </script>
 ```
