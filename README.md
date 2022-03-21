@@ -27,11 +27,13 @@ Path: `/dist`
 <script>
 	new EasyTab('.my-easytab')
 	// Or
-	new EasyTab(document.querySelector('.my-easytab'))
+	// new EasyTab(document.querySelector('.my-easytab'))
 </script>
+```
 
-<!-- Multiple instances with one line of code -->
+Multiple instances with one line of code
 
+```html
 <script>
 	const allEasytabs = document.querySelectorAll('.my-easytab')
 	allEasytabs.forEach(el => new EasyTab(el))
