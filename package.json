@@ -1,4 +1,8 @@
 {
+	"name": "easy-tab",
+	"description": "Easily create tab navigations",
+	"version": "2.0.0",
+	"license": "MIT",
 	"scripts": {
 		"sass:dist": "sass src/easytab.sass:dist/easytab-dist.css --watch --style compressed --no-source-map",
 		"sass:demo": "sass demo/index.sass:demo/index.css --watch --no-source-map"
